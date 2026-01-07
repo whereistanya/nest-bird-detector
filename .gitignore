@@ -1,0 +1,49 @@
+# Environment and credentials
+.env
+*.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Application data
+snapshots/
+logs/
+data/cache/
+*.log
+
+# Backup directories
+backups/
+archived/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# YOLOv8 model cache and large models
+*.pt
+runs/
+# Note: yolov8m.pt (50MB) will be downloaded automatically on first run
