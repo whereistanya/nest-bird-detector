@@ -1,0 +1,34 @@
+# GUI Framework
+PyQt5==5.15.10
+
+# Machine Learning / Computer Vision
+ultralytics==8.0.227
+torch>=2.0.0
+transformers>=4.30.0
+pillow>=9.0.0
+
+# HTTP Requests
+requests>=2.32.0
+certifi>=2024.0.0  # Security: Keep CA certificates up to date
+urllib3>=2.0.0     # Security: Multiple CVEs fixed in 2.x
+
+# WebRTC for streaming
+aiortc>=1.5.0
+av>=10.0.0
+
+# Configuration
+python-dotenv==1.0.0
+
+# macOS Notifications
+pync==2.0.3
+
+# Secure credential storage
+keyring>=24.0.0
+
+# Development only (testing and code quality)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1
+flake8>=6.1.0
+black>=23.7.0
+mypy>=1.5.0
