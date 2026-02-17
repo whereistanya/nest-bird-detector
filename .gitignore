@@ -21,13 +21,22 @@ htmlcov/
 # Application data
 snapshots/
 logs/
-data/cache/
+data/
+bird_corrections.json
+missed_birds/
+device_info.json
+training_data/
+evaluation_dataset/
+reports/
 *.log
 
 # Backup directories
 backups/
 archived/
 tmp/
+
+# Claude Code
+.claude/
 
 # IDE
 .vscode/
@@ -43,7 +52,8 @@ tmp/
 .Spotlight-V100
 .Trashes
 
-# YOLOv8 model cache and large models
+# Model weights (downloaded automatically on first run)
 *.pt
+*.safetensors
 runs/
-# Note: yolov8m.pt (50MB) will be downloaded automatically on first run
+custom_model/
