@@ -5,6 +5,7 @@ Helps users configure Google Nest API access step-by-step.
 import sys
 import os
 import webbrowser
+import requests
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 from config import Config
